@@ -3,6 +3,7 @@
 <head>
     <title>hello</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="http://127.0.0.1:8081/webjarslocator/jquery/jquery.js"></script>
 </head>
 <body>
 <p th:text="'Hello！, ' + ${time} + '!'" >3333</p>
@@ -10,5 +11,11 @@
     <img alt="static" src="/images/gou.png"/>
     <br/>
     <img alt="myres" src="/myres/gou.png"/>
+    <div id="test">hjkhkkhkjhkhkhkhkh</div>
 </body>
+<script type="text/javascript">
+$(function(){
+	$("#test").html("测试 jquery");
+});
+</script>
 </html>
