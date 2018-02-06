@@ -10231,3 +10231,8 @@ Unconditional classes:
 17:28:28.736 [http-nio-127.0.0.1-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
 17:28:28.736 [http-nio-127.0.0.1-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
 17:28:28.736 [http-nio-127.0.0.1-8081-exec-2] DEBUG o.s.b.c.web.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4fd4bace
+17:36:51.555 [Thread-2] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@657c8ad9: startup date [Tue Feb 06 17:13:47 CST 2018]; root of context hierarchy
+17:36:51.559 [Thread-2] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+17:36:51.559 [Thread-2] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+17:36:51.563 [Thread-2] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:36:51.564 [Thread-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-0 - is closing down.
