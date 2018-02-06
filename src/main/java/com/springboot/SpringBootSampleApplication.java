@@ -16,7 +16,7 @@ public class SpringBootSampleApplication {
 	 * 修改DispatcherServlet默认配置
 	 *
 	 * @param dispatcherServlet
-	 * @return
+	 * @return  
 	 */
 	@Bean
 	public ServletRegistrationBean dispatcherRegistration(DispatcherServlet dispatcherServlet) {
