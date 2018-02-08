@@ -4,6 +4,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
@@ -42,7 +44,7 @@ public class StudentService {
 
 		});
 	}
-
+	@Transactional
 	public List<Student> likeName(String name) {
 		return stuMapper.likeName(name);
 	}
